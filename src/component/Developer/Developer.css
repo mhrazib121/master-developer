@@ -1,0 +1,12 @@
+.round {
+    border-radius: 15px;
+}
+.details p{
+    margin-bottom: 5px;
+}
+
+.media-icon a{
+    font-size: 30px;
+    color: rgb(151, 146, 146);
+    margin: 30px;
+}
