@@ -15,7 +15,7 @@ const Developer = (props) => {
     return (
         <div className="col">
             <div className="card h-100 shadow-lg round">
-                <img src={img} className="card-img-top" alt="..." />
+                <img src={img} className="card-img-top hover-img" alt="..." />
                 <div className="card-body">
                     <div className="d-flex justify-content-between">
                         <div className="fw-bold details">
@@ -34,13 +34,13 @@ const Developer = (props) => {
                         </div>
                     </div>
                     <div className="text-center media-icon p-3">
-                        <a href="...">{fbIcon}</a>
-                        <a href="...">{twIcon}</a>
+                        <a className="facebook-icon" href="...">{fbIcon}</a>
+                        <a className="twitter-icon" href="...">{twIcon}</a>
                         <span></span>
                     </div>
                     {/* Add To Cart Button */}
                     <div className="text-center">
-                        <button onClick={() => props.handelAddToCart(props.developer)} type="button" className="btn btn-primary">{cartIcon} Add To Cart</button>
+                        <button onClick={() => props.handelAddToCart(props.developer)} type="button" className="btn btn-success">{cartIcon} Add To Cart</button>
                     </div>
                 </div>
             </div>

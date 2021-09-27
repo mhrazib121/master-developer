@@ -19,7 +19,7 @@ const Cart = (props) => {
             {
                 props.cart.map(developer => <h4 className="name-color" key={developer.id}>{developer.name}</h4>)
             }
-            <button type="button" className="btn btn-primary">Buy Now</button>
+            <button type="button" className="btn btn-success">Buy Now</button>
         </div>
     );
 };

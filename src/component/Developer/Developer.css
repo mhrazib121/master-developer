@@ -5,8 +5,20 @@
     margin-bottom: 5px;
 }
 
+.hover-img:hover{
+    transform: scale(1.15);
+    transition: transform 1s;
+}
+
 .media-icon a{
     font-size: 30px;
-    color: rgb(151, 146, 146);
     margin: 30px;
+}
+.twitter-icon {
+    
+    color: #5DA9DD;
+}
+.facebook-icon {
+    
+    color: rgb(13, 41, 202);
 }
